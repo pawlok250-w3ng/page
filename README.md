@@ -1,1 +1,1 @@
-Artist portfolio
+Artist portfolio 
