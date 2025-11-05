@@ -1,0 +1,223 @@
+<! DOCTYPE HTML>
+<html lang="pl">
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<meta charset="utf-8">
+	<title>Paweł Ziółkowski</title>
+	<meta name="description" content="Strona umożliwiająca zamawianie produktów - obrazów i grafik komputerowych">
+	<meta name="keywords" content="Obraz,grafika,malarstwo">
+	<meta name="author" content="Paweł Ziółkowski">
+	
+	<meta http-equiv="X-Ua-Compatible" content="IE=edge,chrome=1">
+	
+	<link rel="stylesheet" href="main.css">
+	<img style="display: none" visibility = "none" src = "img/1.jpg"/>
+	<img style="display: none" visibility = "none" src = "img/2.jpg"/>
+	<img style="display: none" visibility = "none" src = "img/3.jpg"/>
+	
+		<img style="display: none" visibility = "none" src = "img/4.jpg"/>
+	<img style="display: none" visibility = "none" src = "img/5.jpg"/>
+	<img style="display: none" visibility = "none" src = "img/6.jpg"/>
+	
+		<img style="display: none" visibility = "none" src = "img/7.jpg"/>
+	<img style="display: none" visibility = "none" src = "img/8.jpg"/>
+	<img style="display: none" visibility = "none" src = "img/9.jpg"/>
+	
+		<img style="display: none" visibility = "none" src = "img/10.jpg"/>
+	<img style="display: none" visibility = "none" src = "img/12.jpg"/>
+	<img style="display: none" visibility = "none" src = "img/11.jpg"/>
+	<img style="display: none" visibility = "none" src = "img/13.jpg"/>
+	<img style="display: none" visibility = "none" src = "img/14.jpg"/>
+	<img style="display: none" visibility = "none" src = "img/15.jpg"/>
+	<img style="display: none" visibility = "none" src = "img/16.jpg"/>
+	<img style="display: none" visibility = "none" src = "img/17.jpg"/>
+	<img style="display: none" visibility = "none" src = "img/18.jpg"/>
+	
+	
+</head>
+
+<body>
+
+<header class="site-header" >
+
+<a href ="omnie.html" class="logo">Paweł Ziółkowski</a>
+
+<div class="menu-open"> <span class="open">=</span> </div>
+
+<div class="menu-close"> <span class="close">x</span> </div>
+
+<nav class="menu">
+
+<ul>
+<li><a href="index.html">Strona główna</a></li>
+<li><a href="index.html#footer">Galeria</a></li>
+<li><a href="omnie.html#footer">O mnie</a></li>
+<li><a href="kontakt.html#footer">Kontakt</a></li>
+</ul>
+
+</nav>
+
+
+
+</header>
+<div id="container">
+
+
+
+<header>
+<div id="podcont">
+
+<div id="nowy" class="a2" style="color: #303030; background-color: gray; margin-right: 0px; width: 300px; height: 100%; padding: 30px; padding-top: 30px; font-size: 53px;"> 
+<a href="index.html">
+<i><b>Pablo maluje</b></i>
+</a>
+</div>
+
+<div class="a2">
+<h2>Czy marzyłeś kiedyś o profesjonalnej grafice lub obrazie dla Twojej strony, profilu lub Twojego wnętrza?</h2>
+
+<h2>Jeśli tak, świetnie trafiłeś! Zobacz, co oferuję dla Ciebie i Twojej firmy.</h2>
+</div>
+ <div id="ig"> <a href="https://www.instagram.com/w3ng_art/" target="_blank">
+
+ <i  class="fa fa-instagram" style="margin-left: 50px; padding-top: 0px; font-size: 140px"></i>
+
+</a></div>
+<div style=" clear: both;"></div>
+</div>
+</header>
+
+
+
+
+<main>
+<div id="podcont2">
+<div class="lime">
+<a href="kontakt.html#footer">
+Kontakt
+</a>
+</div>
+
+<div id="nowy2" class="graye">
+<a href="index.html#footer" onclick="click1">
+Portfolio | Galeria
+
+</a>
+</div>
+</div>
+
+
+
+
+
+</main>
+</div><div style="clear: both;"></div>
+<div id="cont4">
+<div id="lewy" ><a href="#footer" onclick="lrl()">
+<b class="icona"><</b></a>
+</div>
+<section id="zdj">
+<div id ="inn" style="float: left;">
+<img style=" margin-left: 15px; margin-top: 50px;"src="img/1.jpg" height="400px"/>
+<img style=" margin-left: 15px; margin-top: 50px;"src="img/2.jpg" height="400px"/>
+<img style=" margin-left: 15px; margin-top: 50px;"src="img/3.jpg" height="400px"/>
+<img style=" margin-left: 15px; margin-top: 50px;"src="img/4.jpg" height="400px"/>
+<img style=" margin-left: 15px; margin-top: 50px;"src="img/5.jpg" height="400px"/>
+<img style=" margin-left: 15px; margin-top: 50px;"src="img/6.jpg" height="400px"/>
+
+ 
+ 
+ 
+ 
+ <div style="clear: both;"></div>
+</section>
+<div id="prawy">
+<a onclick="rl()" href="#footer">
+<b class="icona">></b></a>
+</div>
+</div>
+<div style="clear: both;"></div>
+<footer>
+<br>
+Paweł Ziółkowski &copy; 2025 
+
+</footer>
+</div>
+<div id="footer"></div>
+<body>
+
+
+<script src="jan.js">
+
+</script>
+
+
+<script>
+var lar=1;
+function rl()
+{
+lr=0;
+if(lr){
+
+
+if(lar>1)lar--;
+else lar = 3;
+
+
+}
+else{ 
+
+if(lar<3)lar++;
+else lar =1;
+
+
+}
+
+var nrrr = (lar-1)*6;
+var janekk = document.getElementById('inn');
+
+janekk.innerHTML = '<img style=" margin-left: 15px; margin-top: 50px;"src="img/'+(nrrr+1)+'.jpg" height="400px"/><img style=" margin-left: 15px; margin-top: 50px;"src="img/'+(nrrr+2)+'.jpg" height="400px"/><img style=" margin-left: 15px; margin-top: 50px;"src="img/'+(nrrr+3)+'.jpg" height="400px"/><img style=" margin-left: 15px; margin-top: 50px;"src="img/'+(nrrr+4)+'.jpg" height="400px"/><img style=" margin-left: 15px; margin-top: 50px;"src="img/'+(nrrr+5)+'.jpg" height="400px"/><img style=" margin-left: 15px; margin-top: 50px;"src="img/'+(nrrr+6)+'.jpg" height="400px"/>';
+
+window.setTimeout(slows,1000);
+
+
+
+}
+
+function lrl()
+{
+lr=1;
+if(lr){
+
+
+if(lar>1)lar--;
+else lar = 3;
+
+
+}
+else{ 
+
+if(lar<3)lar++;
+else lar =1;
+
+
+}
+
+var nrr = (lar-1)*6;
+var janekk = document.getElementById('inn');
+
+janekk.innerHTML = '<img style=" margin-left: 15px; margin-top: 50px;"src="img/'+(nrr+1)+'.jpg" height="400px"/><img style=" margin-left: 15px; margin-top: 50px;"src="img/'+(nrr+2)+'.jpg" height="400px"/><img style=" margin-left: 15px; margin-top: 50px;"src="img/'+(nrr+3)+'.jpg" height="400px"/><img style=" margin-left: 15px; margin-top: 50px;"src="img/'+(nrr+4)+'.jpg" height="400px"/><img style=" margin-left: 15px; margin-top: 50px;"src="img/'+(nrr+5)+'.jpg" height="400px"/><img style=" margin-left: 15px; margin-top: 50px;"src="img/'+(nrr+6)+'.jpg" height="400px"/>';
+
+window.setTimeout(slows,1000);
+
+
+
+}
+function slows()
+{
+document.html.scrollTo('#footer')
+}
+</script>
+
+
+</html>

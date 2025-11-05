@@ -1,0 +1,366 @@
+img
+{
+	width: 600px;
+
+}
+#ig > *
+{
+	text-decoration: none;
+	color: lightgray;
+}
+#ig
+{
+	margin-top: auto;
+	margin-bottom: auto;
+	
+	
+}
+#ig >*:hover
+{
+	
+	color: #855E42;
+	
+}
+body
+{
+	background-color: #383838;
+	color: #ffffff;
+	font-size: 20px;
+	text-align: center;
+	padding-top: 100px;
+}
+
+.a1
+{
+	
+	color: #060606;
+	margin-bottom: 50px;
+	margin-left: 50px;
+	margin-right: 50px;
+	padding-bottom: 50px;
+	background-color: lightblue;
+	
+}
+#nowy:hover
+{
+	display: block;
+	color: black !important;
+	cursor: pointer;
+}
+#nowy2:hover
+{
+	display: block;
+	color: black !important;
+	cursor: pointer;
+}
+.a2
+{	
+
+	opacity: 1;
+	color: gray;
+	margin: 50px;
+
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-right: 50px;
+	text-align: justify;
+	padding-left: 70px;
+	padding-right: 125px;
+	background-color: d0eeee;
+	
+}
+.a1:hover, .a2:hover
+{
+	opacity: 1;
+	
+	
+}
+
+
+#cont1
+{
+	display: flex;
+	flex-direction: row;
+	
+}
+.socials
+{
+	flex: 1 1 30%;
+	
+	background-color: lightcyan;
+	opacity: 0.9;
+}
+.socials:hover
+{
+	
+opacity: 1	;
+}
+#cont2
+{
+	flex: 1 1 40%;
+	
+	display: flex;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+#hdr
+{
+	margin-top: 0px;
+	margin-left: auto;
+	margin-right: auto;
+    display: flex;
+	flex-direction: column;
+	
+}
+.lime
+{
+	opacity: 1;
+	flex: 1 1 15%;
+	text-align: center;
+	
+	color: white;
+	font-weight: 550;
+	font-size: 74px;
+	height: 90px;
+	padding: 50px;
+	background-color: burlywood;
+}
+.lime:hover
+{
+	opacity: 1;
+	background-color: #855E42;
+	cursor: pointer;
+}
+.graye
+{
+	padding: 50px;
+	flex: 1 1 70%;
+	background-color: lightgray;
+	margin-left: 50px;
+	margin-right: 50px;
+	font-size: 80px;
+	color: #303030;
+	
+}
+#janek
+{
+	font-size: 50px;
+	padding: 35px;
+	
+	
+}
+.menu
+{
+	
+	opacity: 1 !important;
+	
+}
+.menu >  *
+{
+	
+	opacity: 1 !important;
+	
+}
+.site-header {
+	opacity: 1 !important;
+	background-color: #323232;
+	display: flex;
+	position: fixed;
+	height: 80px;
+	width: 100%;
+	left: 0;
+	top: 0;
+	padding: 0 40px;
+	align-items: center;
+	justify-content: space-between;
+	box-sizing: border-box;
+}
+.logo
+{
+	color: white;
+	text-decoration: none;
+	font-size: 24px;
+	font-weight:600;
+	transition: all 0.2s ease-in-out;
+	opacity: 1 !important;
+	
+}
+
+.logo:hover {
+	color: burlywood;
+	opacity: 1 !important;
+}
+
+.menu a{
+	text-decoration: none;
+	color: white;
+	transition: all 0.2 ease-in-out;
+	display: block;
+	padding: 29px 20px;
+	opacity: 1!important;
+	text-align: center;
+}
+.menu a:hover{
+	opacity: 1 !important;
+	background-color: burlywood;
+}
+.menu ul  
+{
+	list-style: none;
+	opacity: 1 !important;
+	display: flex;
+	
+}
+.menu-open, .menu-close{
+	color: white;
+	cursor: pointer;
+	opacity: 1 !important;
+	display: none;
+	
+	
+}
+
+@media(max-width: 750px) {
+	.a1, .a2
+	{
+		
+		opacity: 1;
+	}
+
+	.menu-open{
+		opacity: 1 !important;
+		display: block;
+	}
+	.menu {
+		
+		position: fixed;
+		top: 80px;
+		right: 0;
+		opacity: 1 !important;
+		display: none;
+	}
+	
+	.menu ul {
+		
+		flex-direction: column;
+		height: 100vh;
+		opacity: 1 !important;
+		background-color: #323232;
+		width: 200px;
+	}
+	
+}
+#zdj
+{
+	margin-left: 50px;
+	margin-right: 50px;
+	min-height: 500px;
+	
+}
+#container
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	max-width: 1500px;
+	display: flex;
+	flex-direction: column;
+	
+}
+#podcont
+{
+	margin-top: 50px;
+	margin-bottom: 50px;
+display: flex;
+flex-direction: row;	
+	
+}
+#podcont2
+{ 
+display: flex;
+flex-direction: row;
+	
+}
+#cont4{
+	
+	display: flex;
+	flex-direction: row;
+	margin-top: auto;
+	margin-bottom: auto;
+	text-align: center;
+	
+}
+#lewy
+{
+	margin-left: 100px;
+	display: blok;
+	margin-top: auto;
+	margin-bottom: auto;
+	padding: 30px;
+	background-color: burlywood;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+#prawy
+{
+	display: block;
+	background-color: burlywood;
+	margin-right: 100px;
+	margin-top: auto;
+	margin-bottom: auto;
+	padding: 30px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.icona 
+{
+
+	font-size: 200px;
+}
+#lewy:hover
+{
+background-color: #855E42;	
+	
+}
+#prawy:hover
+{
+background-color: #855E42;	
+	
+}
+a
+{
+	display: block;
+	text-decoration: none;
+	color: inherit;
+}
+html
+{
+	  scroll-behavior: smooth;
+}
+#jeden
+{
+	font-size: 44px;
+	text-align: justify;
+	margin-left: auto;
+	margin-righ: auto;
+	padding: 300px;
+	padding-top: 0px;
+}
+#jeden h1
+{
+	text-align: center;
+}
+#dwa
+{
+   
+	font-size: 44px;
+	text-align: justify;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 300px;
+	padding-top: 0px;
+}
+#dwa h1
+{
+	text-align: justify;
+}
